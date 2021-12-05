@@ -39,7 +39,6 @@ class GameFunctions:
     options = set(["show", "drop", "exit", "help"])
 
     def processCommand(gamestate, cmd, param):
-        success = True
 
         if cmd == "show":
             if param:
